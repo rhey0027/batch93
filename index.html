@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rhey Yu / Developer">
+    <link rel="icon" type="image/x-icon" href="./images/bnhs.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Batch '93 Alumni</title>
+    <script src="script.js"></script>
+  </head>
+<body>
+
+    <!-- preventing page from reloading and closing -->
+    <!-- <script type="text/javascript">
+        window.addEventListener("beforeunload", () => {
+            event.preventDefault();
+            event.saveValue = "";
+        })
+    </script> -->
+<!-- INTRO COLUMN 12 -->
+    <div class="container">
+            <div class="row">
+                <div class="intro col-12">
+                    <h1 id="batch"><span>BATCH '93</span>  ALUMNI HOMECOMING</h1>
+                   <p class="sub1">December 16-19, 2022 | BNHS CAMPUS</p>
+                   <p class="sub2">Theme: <br> <span>"Dance to the Rhythms of Our Lives"</span></p>
+                </div>
+            </div>
+    </div>
+    <div class="logo">
+        <img id="img1" src="./images/bnhs.png" width="150px" alt="bnhs seal" onmouseover="this.src='./images/batch93.png';" onmouseout="this.src='./images/bnhs.png';">
+        <script>rotateAnimation("img1", 35);</script>
+    </div>
+<!-- INTRO ROW -->
+  
+    <div class="row">
+        <div class="col-8">
+            <button class="btn1" onclick="window.open('./BATCH SHIRT 93.pdf','_blank')">Click to view List</button>
+            <!-- <input id="userInput" type="text" placeholder="Nombre aki pabor...." maxlength="100"><br><br>
+           <button id="enter">List Me In</button> -->
+        </div>
+    </div>
+
+    <div class="container-image">
+        <img class="img1" src="./images/polo.png" alt="" width="150px">
+        <img class="img2" src="./images/long.png" alt="" width="150px" height="150px">
+
+    </div>
+
+    <footer>
+        <div>
+            <p class="p1">RHEY YU | FULL STACK DEVELOPER/PROGRAMMER</p>
+            <P class="p2">All Rights Reserved &copy 2022</P>
+        </div>
+    </footer>
+<!-- EMPTY LIST -->
+    <!-- <div class="row">
+        <div class="listItems col-8">
+            <ul class="col-8 offset-0 col-sm-5 offset-sm-2">
+            </ul>
+        </div>
+    </div> -->
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
