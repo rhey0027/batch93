@@ -1,4 +1,5 @@
 
+alert ("Are you really One of Us BATCH '93");
 var looper;
 var degrees = 0;
 function rotateAnimation(el,speed){
